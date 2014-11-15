@@ -1,0 +1,57 @@
+body,ul,ol,li,img,div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+
+#snow-demo{
+    display: block;
+    position:relative;
+    margin: 0 auto;
+    width:950px;
+    height:83px;
+}
+#snow-demo #snow-bannerDiv{
+    display: block;
+    position:relative;
+    margin: 0 auto;
+    width:950px;
+    height:83px;
+    overflow: hidden;
+}
+
+#snow-demo #snow-bannerDiv ul{
+    list-style: none;
+    height:auto;
+    position: absolute;
+}
+#snow-demo #snow-bannerDiv ul li{
+    height: 83px;
+}
+
+#snow-demo ol{
+    margin: 0;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+#snow-demo ol li{
+    width: 15px;
+    height: 15px;
+    float: left;
+    background-color: white;
+    background-color: rgba(255,255,255,0.5);
+    color: #999;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#snow-demo .select{
+    background-color: rgba(255,102,0,0.8);
+    color: white;
+    font-weight: bold;
+}
